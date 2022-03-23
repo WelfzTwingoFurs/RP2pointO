@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://objects/effects/AllEffects-bullet.gd" type="Script" id=1]
+[ext_resource path="res://graphics/effects/alleffects-bullet.png" type="Texture" id=2]
+
+[node name="AllEffects-bullet" type="Sprite"]
+z_index = 4096
+texture = ExtResource( 2 )
+hframes = 10
+vframes = 2
+script = ExtResource( 1 )
